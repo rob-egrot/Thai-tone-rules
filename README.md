@@ -1,2 +1,2 @@
 # Thai-tone-rules
-A Jupyter notebook creating decision trees for visualizing Thai tone rules in sklearn.  Also a simple question and answer generator for self-testing.
+In this notebook I train some decision trees for illustrating the rules governing the tone of a syllable in the Thai language. I use sklearn for this, so I'm limited to binary trees, and I have to use the one-hot encoding fudge to deal with the fact that the data is categorical. Despite this I found the trees quite helpful for learning the rules. There's a short section at the end for generating questions and answers for self testing.
